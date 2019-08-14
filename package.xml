@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<package>
+    <name>parcelspace</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="https://www.parcelspace.com/docs/eula">End User Licence Agreement</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Enhancing customer relationships and revenue by increasing delivery confidence and improving delivery outcomes&#xD;
+</summary>
+    <description>&lt;h3&gt;ParcelSpace delivering confidence&lt;/h3&gt;&#xD;
+ to help you increase customer satisfaction, sell more, and enhance your reputation amongst your target customers through smart app-alerts, monitoring, messaging and more.&#xD;
+&#xD;
+&lt;h3&gt;Turn delivery problems into positive conversations&lt;/h3&gt;&#xD;
+- Dashboard overview of all your orders and despatches&#xD;
+- Alerts to actively manage deliveries&#xD;
+- Easy direct contact with customers to turn problematic deliveries into positive outcomes&#xD;
+&#xD;
+&lt;h3&gt;Proactive parcel tracking for your customers&lt;/h3&gt;&#xD;
+- Smart alerting for your customer in the free ParcelSpace iOS and Android app &#xD;
+- Range of messaging and texting options to suit you and your customer&#xD;
+- Helps your customers plan a better delivery experience&#xD;
+&#xD;
+&lt;h3&gt;Drive customers back to your website&lt;/h3&gt;&#xD;
+- Multiple opportunities to drive traffic and build customer relationships&#xD;
+&#xD;
+&lt;h3&gt;Additional brand promotion&lt;/h3&gt;&#xD;
+- Configurable brand enhancing email and text tracking alerts&#xD;
+- White label options available for seamless integration&#xD;
+&#xD;
+Further features will be implemented in the coming months with participating partners, allowing &#xD;
+you to generate additional revenue as well as improve your customer relationships. ParcelSpace is a genuine win-win for you and your customer.&#xD;
+&#xD;
+&lt;h3&gt;HOW IT WORKS&lt;/h3&gt;&#xD;
+The ParcelSpace Magento extension works via a fully functional API written in PHP using REST. &#xD;
+It is currently compatible with Magento Community. If you require Magento Enterprise please &#xD;
+contact us directly to learn of our development plans.&#xD;
+The ParcelSpace on-line application is simple, easy to use and powerful, and works seamlessly with the ParcelSpace consumer iOS and Android apps.&#xD;
+Our extension is focused on UK retailers using their UK carriers, and we are happy to facilitate links to your main international carriers if required.&#xD;
+&#xD;
+&lt;h3&gt;PRICING&lt;/h3&gt;&#xD;
+ParcelSpace is free for web site tracking, monitoring, eNotes and some other functionality. Fees for additional functionality are modest and we will always try to ensure that all fees charged will be more than offset by increased value and revenue from customers. &#xD;
+All fees are charged monthly with no long term commitments, and you will be surprised at the value that ParcelSpace can bring. &#xD;
+&#xD;
+&lt;h3&gt;SETUP PROCESS&lt;/h3&gt;&#xD;
+&#xD;
+&lt;h3&gt;1. Register your details on the retailer solutions sign up page&lt;/h3&gt;&#xD;
+https://www.parcelspace.com/retailersignup&#xD;
+After confirming that you are a UK retailer, we will send you a key for our API (Application &#xD;
+Programming Interface) to use with the Magento extension.&#xD;
+&#xD;
+&lt;h3&gt;2. Install ParcelSpace extension&lt;/h3&gt;&#xD;
+Obtain the extension installation key from Magento Connect.&#xD;
+We recommend that you back up your database.&#xD;
+From the Magento Admin Panel, open the Magento Connect Manager (System &gt; Magento Connect &gt;Magento Connect Manager) and paste the extension key to install.&#xD;
+&#xD;
+&lt;h3&gt;3. Enter ParcelSpace API key&lt;/h3&gt;&#xD;
+On the Configuration menu (System &gt; Configuration), choose ParcelSpace under SALES, to bring up the field for the API key, and then choose &lt;Save Config&gt;.</description>
+    <notes>Release candidate.</notes>
+    <authors><author><name>ParcelSpace Ltd</name><user>ParcelSpace</user><email>info@parcelspace.com</email></author></authors>
+    <date>2014-08-21</date>
+    <time>17:47:46</time>
+    <contents><target name="magelocal"><dir name="Parcelspace"><dir name="Deliveringconfidence"><dir name="Block"><file name="Btn.php" hash="b8206fcaddc8ecbb170924ad9d83e3b9"/><file name=".DS_Store" hash="e6aa15d861c418c74084903c219fad1d"/></dir><dir name="Helper"><file name="Data.php" hash="c136aeff841dbb466deae7d57966e0ba"/><file name=".DS_Store" hash="194577a7e20bdcc7afbb718f502c134c"/></dir><dir name="Model"><file name="Observer.php" hash="520f06fec9c9aee1ec4400a9c9c86f5b"/><file name=".DS_Store" hash="79f87a004b84448fc00d11d8d892ac9e"/></dir><dir name="controllers"><file name="IndexController.php" hash="0f4a4096d3476154ad0dbc51dd4bddd8"/><file name=".DS_Store" hash="612ec870195a9c767b00f79da5072856"/></dir><dir name="etc"><file name="config.xml" hash="b098077b475e87e82e77ebd692a4e2fd"/><file name="system.xml" hash="45d27e7b587db7c6cbaaeac9caa49c2b"/><file name=".DS_Store" hash="194577a7e20bdcc7afbb718f502c134c"/></dir><file name=".DS_Store" hash="e3bcc054fa459859301beabb391de8fd"/></dir><file name=".DS_Store" hash="57d18dc4b5dca31385d0b00b0fef0de3"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="parcelspace_deliveringconfidence.xml" hash="d6f45213735de98a6f0fdda70a99be84"/></dir><dir name="template"><dir name="parcelspace_deliveringconfidence"><dir name="tracking"><file name="popup.phtml" hash="78ee0e701abb1207701dfedab3cc0691"/><file name=".DS_Store" hash="194577a7e20bdcc7afbb718f502c134c"/></dir><file name=".DS_Store" hash="07429daf8ce8106b1d70c195b0a9af27"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Parcelspace_Deliveringconfidence.xml" hash="14f68e4378ac8d6bc84b65a74e974206"/></dir></target><target name="magelocale"><dir><dir name="en_US"><file name="Parcelspace_Deliveringconfidence.csv" hash="aba0f88f88f727c94e8e5368453c88cb"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>5.5.0</max></php></required></dependencies>
+</package>

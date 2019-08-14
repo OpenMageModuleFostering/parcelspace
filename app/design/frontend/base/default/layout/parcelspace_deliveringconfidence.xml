@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <shipping_tracking_popup>
+        <block type="shipping/tracking_popup" name="shipping.tracking.popup" template="parcelspace_deliveringconfidence/tracking/popup.phtml" />
+    </shipping_tracking_popup>
+</layout>
