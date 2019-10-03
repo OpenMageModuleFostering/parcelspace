@@ -1,17 +1,5 @@
 {
-    "name": "OpenMageModuleFostering/parcelspace",
-    "type": "magento-module",
-    "license": "End-User-Licence-Agreement",
-    "homepage": "",
-    "description": "Enhancing customer relationships and revenue by increasing delivery confidence and improving delivery outcomes
-",
-    "authors": [
-    {
-        "name": "ParcelSpace Ltd",
-        "email": "info@parcelspace.com"
-    }
-],
-    "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+    "keywords": [
+        "openmage-module"
+    ]
 }
